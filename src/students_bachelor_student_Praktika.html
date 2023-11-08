@@ -1,0 +1,119 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Utility", "title": "Starter page"})
+
+                        <section class="content-main">
+                            <div class="col">
+                                
+                                <div class="card card-user">
+                    
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-50">Список проводимых в данный момент опросов студентов</h5>
+                                        
+                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-50">Список проводимых в данный момент опросов студентов</h5>
+                                        </h6>
+                                    </div>
+                                    <!-- card-header end// -->
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <thead>
+                                                <tr>
+                                                    <th>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" />
+                                                        </div>
+                                                    </th>
+                                                    <th>#Номер группы</th>
+                                                    <th>Тип практики</th>
+                                                    <th>Период прохождения практики</th>
+                                                    <th>Руководитель практики</th>
+                                                    <th>Организация/Тип организации/Руководитель</th>
+                                                    <th>Статус</th>
+                    
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" />
+                                                        </div>
+                                                    </td>
+                                                    <td>1323130
+                                                    </td>
+                                                    <td><b>Учебная практика</b></td>
+                                                    <td>10.03.2020</td>
+                                                    <td>Касинов Абзал Нұрсағатұлы  </td>
+                                                    <td>не установлено</td>
+                                                    <td><button type="button" class="btn btn-success waves-effect waves-light"><a href="students_bachelor_detail_student_Praktika.html">Открыть</a></button></td>
+                                                </tr>
+                    
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- table-responsive//end -->
+                                    </div>
+                                    <!-- card-body end// -->
+                                </div>
+                    
+                            </div>
+                    
+                    
+                    
+                    
+                        </section>
+                    
+                                                
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

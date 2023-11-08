@@ -1,0 +1,155 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Utility", "title": "Starter page"})
+
+                        <section class="content-main">
+                            <div class="row">
+                              <div class="col-9">
+                                <div class="content-header">
+                                  <h2 class="content-title">studentAttemptList</h2>
+                                  <div>
+                                    <button class="btn btn-light rounded font-sm mr-5 text-body hover-up">Save to draft</button>
+                                    <button class="btn btn-md rounded font-sm hover-up">Publich</button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="card mb-4">
+                                  <div class="card-header">
+                                    <h4>Basic</h4>
+                                  </div>
+                                  <div class="card-body">
+                        
+                                    <div class="mb-4">
+                                      <article class="itemlist">
+                        
+                                        <div class="row align-items-center">
+                        
+                                          <div class="col-lg-2 col-sm-4 col-8 flex-grow-1 col-name">
+                                            <div class="info">
+                                              <span>Номер теста:</span>
+                                              <h6 class="mb-0">25402</h6>
+                                            </div>
+                                          </div>
+                        
+                        
+                                        </div>
+                        
+                                        <div class="row align-items-center">
+                        
+                                          <div class="col-lg-2 col-sm-4 col-8 flex-grow-1 col-name">
+                                            <div class="info">
+                                              <span>Преподаватель:	</span>
+                                              <h6 class="mb-0">Таласбаева Ж. Т.</h6>
+                                            </div>
+                                          </div>
+                        
+                        
+                                        </div>
+                        
+                                        <div class="row align-items-center">
+                        
+                                          <div class="col-lg-2 col-sm-4 col-8 flex-grow-1 col-name">
+                                            <div class="info">
+                                              <span>Экзаменатор:	</span>
+                                              <h6 class="mb-0">25402</h6>
+                                            </div>
+                                          </div>
+                        
+                        
+                                        </div>
+                        
+                                        <div class="row align-items-center">
+                        
+                                          <div class="col-lg-2 col-sm-4 col-8 flex-grow-1 col-name">
+                                            <div class="info">
+                                              <span>Время начала:	</span>
+                                              <h6 class="mb-0">27.09.2023 15:45:00
+                                              </h6>
+                                            </div>
+                                          </div>
+                        
+                        
+                                        </div>
+                        
+                                        <div class="row align-items-center">
+                        
+                                          <div class="col-lg-2 col-sm-4 col-8 flex-grow-1 col-name">
+                                            <div class="info">
+                                              <span>Время завершения:	</span>
+                                              <h6 class="mb-0">27.09.2023 16:15:0</h6>
+                                            </div>
+                                          </div>
+                        
+                        
+                                        </div>
+                        
+                                        <div class="row align-items-center">
+                        
+                                          <div class="col-lg-2 col-sm-4 col-8 flex-grow-1 col-name">
+                                            <div class="info">
+                                              <span>Результат последней попытки :	</span>
+                                              <h6 class="mb-0">25402</h6>
+                                            </div>
+                                          </div>
+                        
+                        
+                                        </div>
+                        
+                        
+                                        <!-- row .// -->
+                                      </article>
+                                    </div>
+                        
+                        
+                        
+                                  </div>
+                                </div>
+                                <!-- card end// -->
+                        
+                            </div>
+                          </section>
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

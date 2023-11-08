@@ -1,0 +1,278 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Академический календарь", "title": "Академический календарь"})
+
+                        <div class="row mx-0 gy-3 px-lg-5">
+                            <!-- Basic -->
+                            <div class="col-lg mb-md-0 mb-4">
+                              <div class="card border rounded shadow-none">
+                                <div class="card-body">
+                                  <div class="my-3 pt-2 text-center">
+                                    <img src="assets/images/backgrounds/OBJECTS (1).svg" alt="Basic Image" height="140">
+                                  </div>
+                                  <h3 class="card-title fw-semibold text-center text-capitalize mb-1">Форма обучения:дневная</h3>
+                                  
+                                  <div class="text-center">
+                                    <div class="d-flex justify-content-center">
+                                      
+                                      
+                                      <sub class="h6 pricing-duration mt-auto mb-2 text-muted fw-normal">/Уровень/направление обучения:Первое высшее образование</sub>
+                                    </div>
+                                  </div>
+      
+                                  <ul class="ps-3 my-4 pt-2">
+                                    <li class="mb-2">Количество семестров:8</li>
+                                    <li class="mb-0">Специальность: 6B05402 Математика</li>
+                                    <li class="mb-0">Год поступления:2022</li>
+                                  </ul>
+                                  <a href="#" class="btn btn-label-success d-grid w-100 waves-effect">Ваш переводной уровень с курса на курс GPА = 0</a>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            
+                            <div class="col-lg mb-md-0 mb-4">
+                                <div class="card border rounded shadow-none">
+                                  <div class="card-body">
+                                    <div class="table-responsive border rounded">
+                                        <table class="table table-striped text-center mb-0">
+                                          <thead>
+                                            <tr>
+                                              <th scope="col">
+                                                <p class="mb-1">Семестр</p>
+                                                <small class="text-muted fw-normal text-capitalize">Идет обучение</small>
+                                              </th>
+                                              <th scope="col">
+                                                <p class="mb-1">#Семестр 1</p>
+                                               
+                                              </th>
+                                              <th scope="col">
+                                                <p class="mb-1 position-relative">
+                                                    #Семестр 1
+                                                  <span class="badge badge-center rounded-pill bg-primary position-absolute mt-n2 ms-1"></span>
+                                                </p>
+                                                <small class="text-muted fw-normal text-capitalize">Пройдено</small>
+                                              </th>
+                                              <th scope="col">
+                                                <p class="mb-1">#Семестр 1</p>
+                                                
+                                              </th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td>#Семестр 1</td>
+                                              <td>
+                                                <span class="badge badge-center rounded-pill w-px-20 h-px-20 bg-label-primary">
+                                                  <i class="ti ti-check"></i>
+                                                </span>
+                                              </td>
+                                              <td>#Семестр 1</td>
+                                              <td>
+                                                <span class="badge badge-center rounded-pill w-px-20 h-px-20 bg-label-primary">
+                                                  <i class="ti ti-check"></i>
+                                                </span>
+                                              </td>                                              
+                                            </tr>
+                                            <tr>
+                                                <td>#Семестр 1</td>
+                                                <td>
+                                                  <span class="badge badge-center rounded-pill w-px-20 h-px-20 bg-label-primary">
+                                                    <i class="ti ti-check"></i>
+                                                  </span>
+                                                </td>
+                                                <td>#Семестр 2</td>
+                                                <td>
+                                                  <span class="badge badge-center rounded-pill w-px-20 h-px-20 bg-label-primary">
+                                                    <i class="ti ti-check"></i>
+                                                  </span>
+                                                </td>                                              
+                                              </tr>
+                                              <tr>
+                                                <td>#Семестр 3</td>
+                                                <td>
+                                                  <span class="badge badge-center rounded-pill w-px-20 h-px-20 bg-label-primary">
+                                                    <i class="ti ti-check"></i>
+                                                  </span>
+                                                </td>
+                                                <td>#Семестр 4</td>
+                                                <td>
+                                                  <span class="badge badge-center rounded-pill w-px-20 h-px-20 bg-label-primary">
+                                                    <i class="ti ti-check"></i>
+                                                  </span>
+                                                </td>                                              
+                                              </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                </div>
+                                
+                              </div>
+        
+
+                          </div>
+
+
+                        <div class="row mx-4">
+                            <div class="col-12">
+                              <div class="table-responsive border rounded">
+                                <table class="table table-striped text-center mb-0">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">
+                                        <p class="mb-1">Период </p>
+                                        
+                                      </th>
+                                      <th scope="col">
+                                        <p class="mb-1">Недель</p>
+                                        
+                                      </th>
+                                      <th scope="col">
+                                        <p class="mb-1 position-relative">
+                                            От
+                                          <span class="badge badge-center rounded-pill bg-primary position-absolute mt-n2 ms-1"></span>
+                                        </p>
+                                       
+                                      </th>
+                                      <th scope="col">
+                                        <p class="mb-1">до</p>
+                                        
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+
+                                    <tr>
+                                      <td>Теоретическое обучение</td>
+                                      <td>
+                                        <span>
+                                          
+                                          <span>111</span>
+                                        </span>
+                                      </td>
+                                      <td>
+                                        <span>
+                                            01.09.2022
+                                        </span>
+                                      </td>
+                                      <td>
+                                        <span>
+                                            10.12.2022
+                                        </span>
+                                      </td>
+
+                                    </tr>
+                                    
+                                    <tr>
+                                      <td>Теоретическое обучение</td>
+                                      <td>
+                                        <span>
+                                          
+                                          <span>111</span>
+                                        </span>
+                                      </td>
+                                      <td>
+                                        <span>
+                                            01.09.2022
+                                        </span>
+                                      </td>
+                                      <td>
+                                        <span>
+                                            10.12.2022
+                                        </span>
+                                      </td>
+
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Теоретическое обучение</td>
+                                        <td>
+                                          <span>
+                                            
+                                            <span>111</span>
+                                          </span>
+                                        </td>
+                                        <td>
+                                          <span>
+                                              01.09.2022
+                                          </span>
+                                        </td>
+                                        <td>
+                                          <span>
+                                              10.12.2022
+                                          </span>
+                                        </td>
+  
+                                      </tr>
+                                    
+                                      <tr>
+                                        <td>Теоретическое обучение</td>
+                                        <td>
+                                          <span>
+                                            
+                                            <span>111</span>
+                                          </span>
+                                        </td>
+                                        <td>
+                                          <span>
+                                              01.09.2022
+                                          </span>
+                                        </td>
+                                        <td>
+                                          <span>
+                                              10.12.2022
+                                          </span>
+                                        </td>
+  
+                                      </tr>
+    
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+
+
+                    <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,122 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Utility", "title": "Starter page"})
+
+                        <section class="content-main">
+                            <div class="content-header">
+                                <div>
+                                    <h2 class="content-title card-title">Инструкции</h2>
+                                     
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="card">
+                                        <div class="card-body">
+            
+                                            
+            
+                                            <!-- 16:9 aspect ratio -->
+                                            <div class="ratio ratio-16x9">
+                                                <iframe title="YouToube Video" src="https://www.youtube.com/embed/1y_kfWUCFDQ" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end col -->    
+                            </div>
+                            <div class="card mb-4">
+                                <header class="card-header">
+                                    <div class="row align-items-center">
+                                         
+                                        
+                    
+                                    </div>
+                                </header>
+                                <!-- card-header end// -->
+                                <div class="card-body">
+                                    <article class="itemlist">
+                                        <div class="row align-items-center">
+                    
+                                            <div class="col-lg-2 col-sm-4 col-8 flex-grow-1 col-name">
+                                                <div class="info">
+                                                    <span>Дисциплина</span>
+                                                    <h6 class="mb-0">Дискретная математика и Математическая логика</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2 col-sm-2 col-4 col-price">
+                                                <span>Тип тестирования</span>
+                                                <h6 class="mb-0">Пробный</h6>
+                                            </div>
+                                            <div class="col-lg-1 col-sm-2 col-4 col-price">
+                                                <span>Контроль</span>
+                                                <h6 class="mb-0">Пробный</h6>
+                                            </div>
+                                            <div class="col-lg-2 col-sm-2 col-4 col-price">
+                                                <span>Преподаватель</span>
+                                                <h6 class="mb-0">Таласбаева Ж.</h6>
+                                            </div>
+                    
+                                            <div class="col-lg-1 col-sm-2 col-4 col-date">
+                                                <span>02.11.2021</span>
+                                            </div>
+                                            <div class="col-lg-1 col-sm-2 col-4 col-status">
+                                                <span class="badge rounded-pill alert-success">Завершен</span>
+                                            </div>
+                                            <div class="col-lg-1 col-sm-2 col-4 col-status">
+                                                 
+                                                <button type="button" class="btn btn-success waves-effect waves-light"><a href="bachelor_others_detail_Testing.html">Открыть</a></button>
+                                            </div>
+                    
+                                        </div>
+                                        <!-- row .// -->
+                                    </article>
+                    
+                                    <!-- itemlist  .// -->
+                                </div>
+                                <!-- card-body end// -->
+                            </div>
+                            <!-- card end// -->
+                             
+                        </section>    
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

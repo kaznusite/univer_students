@@ -1,0 +1,244 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        
+        <link href="assets/libs/select2/css/select2.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+        <link href="assets/libs/spectrum-colorpicker2/spectrum.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet">
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Utility", "title": "Starter page"})
+                        
+
+                        <div class="row">
+
+                                                                    
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Услуга</label>
+                                            <select class="form-control select2">
+                                                <option>Все</option>
+                                                <optgroup label="Все">                                                   
+                                                    <option value="34">Вакантные образовательные гранты</option>
+                                                    <option value="20">Внешняя академическая мобильность</option>
+                                                    <option value="42">Внешняя краткосрочная АМ</option>
+                                                    <option value="25">Возврат из академического отпуска</option>
+                                                    <option value="28">Возврат студентов по АМ</option>
+                                                    <option value="44">Воинский учет призывников и военнообязанных</option>
+                                                    <option value="45">Временная регистрация по месту жительства</option>
+                                                    <option value="52">Выдача оригинала или копии документов</option>
+                                                    <option value="53">Выдача транскрипта вне вуза</option>
+                                                    <option value="32">Выдача транскрипта внутри вуза</option>
+                                                    <option value="56">Заявка на выдачу оригинала для студентов гос. гранта для нострификации</option>
+                                                    <option value="55">Заявка на выдачу оригинала для студентов на платной основе для нострификации</option>
+                                                    <option value="33">Заявка на общежитие</option>
+                                                    <option value="19">Изменение персональных данных</option>
+                                                    <option value="58">Командирование</option>
+                                                    <option value="48">Обращение к руководству университета</option>
+                                                    <option value="43">Обходной лист для выпускников</option>
+                                                    <option value="50">Обходной лист для отчисляемых/для переводящихся</option>
+                                                    <option value="23">ОТЧИСЛЕНИЕ. Для того чтобы подать заявку на "Отчисление", надо сначала подать заявку на "Обходной лист для отчисляемых"</option>
+                                                    <option value="26">Перевод внутри ВУЗа</option>
+                                                    <option value="37">Перезачет дисциплин и кредитов</option>
+                                                    <option value="24">Продление академического отпуска</option>
+                                                    <option value="47">Справка ГЦВП (Приложение 4)</option>
+                                                    <option value="31">Справка ГЦВП (Приложение 6)</option>
+                                                    <option value="59">Справка ГЦВП(приложение 29)</option>
+                                                    <option value="49">Справка ГЦВП(приложение 31)</option>
+                                                    <option value="51">Справка для иностранцев</option>
+                                                    <option value="30">Справка об обучении</option>
+                                                    <option value="46">Справка(приложение 2)</option>
+                                                    <option value="18">Уход в академический отпуск</option>
+                                                    <option value="57">ЭЦП</option>
+                                                </optgroup>                                                                                                                                   
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <label class="form-label">Факультет</label>
+
+                                            <select class="select2 form-control select2-multiple"
+                                                multiple="multiple" data-placeholder="Выбрать ...">
+                                                <optgroup label="Не выбран">                                                    
+                                                    <option value="1">Механико-математический</option>
+                                                    <option value="2">Физико-технический</option>
+                                                    <option value="3">Химии и химической технологии</option>
+                                                    <option value="4">Биологии и биотехнологии</option>
+                                                    <option value="5">Географии и природопользования</option>
+                                                    <option value="6">Журналистики</option>
+                                                    <option value="7">Истории</option>
+                                                    <option value="8">Филологический</option>
+                                                    <option value="9">Международных отношений</option>
+                                                    <option value="10">Востоковедения</option>
+                                                    <option value="13">Философии и политологии</option>
+                                                    <option value="14">Высшая школа экономики и бизнеса</option>
+                                                    <option value="15">Юридический</option>
+                                                    <option value="17">Факультет довузовского образования (колледж, профильная школа)</option>
+                                                    <option value="18">Военная подготовка</option>
+                                                    <option value="22">Медицины и здравоохранения</option>
+                                                    <option value="24">Гылым ордасы</option>
+                                                    <option value="27">Информационных технологий</option>
+                                                    <option value="28">Al-farabi business school</option>
+                                                </optgroup>                                                                                                                  
+                                            </select>
+                                        </div>
+                                        <hr>
+                                        <div class="col-md-3">
+                                            <div>
+                                                <h5 class="font-size-14 mb-4">Статус заявки</h5>
+                                               
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="formCheck2" checked>
+                                                    <label class="form-check-label" for="formCheck2">
+                                                        Все
+                                                    </label>                                                    
+                                                </div>
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="formCheck2" checked>
+                                                    <label class="form-check-label" for="formCheck2">
+                                                        Отклонено
+                                                    </label>                                                    
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <label class="form-label">Дата заявки</label>
+
+                                        <div class="input-daterange input-group" id="datepicker6" data-date-format="dd M, yyyy" data-date-autoclose="true" data-provide="datepicker" data-date-container='#datepicker6'>
+                                            <input type="text" class="form-control" name="start" placeholder="Начало" />
+                                            <input type="text" class="form-control" name="end" placeholder="Конец" />
+                                        </div>
+                                        
+                                        <div>
+                                            <label for="example-text-input" class="col-sm-2 col-form-label">Фамилия</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" placeholder="Фамилия" id="example-text-input">
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <label for="example-text-input" class="col-sm-2 col-form-label">Имя</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" placeholder="Имя" id="example-text-input">
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <label for="example-text-input" class="col-sm-2 col-form-label">Отчество</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" placeholder="Отчество" id="example-text-input">
+                                            </div>
+                                        </div>
+                                      
+                                    </div>
+
+                                    
+                                </div>
+
+                            </form>
+
+                            <div class="col-sm-10">
+                                <button type="button" class="btn btn-outline-primary waves-effect waves-light">Выбор</button>
+                                <button type="button" class="btn btn-outline-primary waves-effect waves-light">Сохранить в файл</button>                       
+                            </div>
+                            
+
+                            
+                        </div>
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                       
+                                        <div class="table-responsive">
+                                            <table class="table mb-0">
+        
+                                                <thead>
+                                                    <tr>
+                                                        <th>Факультет</th>
+                                                        <th>Ф.И.О.</th>
+                                                        <th>Услуга</th>
+                                                        <th>Дата</th>
+                                                        <th>Статус</th>
+                                                        <th>Маршрут</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        
+                                                        <th scope="row">166139</th>
+                                                        <td>Механико-математический</td>
+                                                        <td>Иргебаева Ә. Б.</td>
+                                                        <td>ОТЧИСЛЕНИЕ. Для того чтобы подать заявку на "Отчисление", надо сначала  подать заявку на "Обходной лист для отчисляемых"</td>
+                                                        <td>21.10.2023 14:22:37</td>
+                                                        <td> <button type="button" class="btn btn-outline-success waves-effect waves-light"><a href="students_e-services_services_detail_StatementPage.html">Открыть</a></button></td>                                                                                                                                        
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/libs/select2/js/select2.min.js"></script>
+        <script src="assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+        <script src="assets/libs/spectrum-colorpicker2/spectrum.min.js"></script>
+        <script src="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+        <script src="assets/libs/admin-resources/bootstrap-filestyle/bootstrap-filestyle.min.js"></script>
+        <script src="assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
+        
+        <script src="assets/js/pages/form-advanced.init.js"></script>
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,75 @@
+@@include("partials/main.html")
+
+<head>
+
+    @@include("partials/title-meta.html", {"title": "Starter page"})
+
+    @@include("partials/head-css.html")
+
+</head>
+@@include("partials/body.html")
+<div id="layout-wrapper">
+            
+    @@include("partials/menu.html")
+
+
+        <div class="main-content">
+
+    <div class="page-content">
+        <div class="container-fluid">
+
+            @@include("partials/page-title.html", {"pagetitle": "Назад", "title": "Список проводимых в данный момент опросов студентов"})
+
+            
+
+                                    
+            <div class="row">
+                <div class="col-md-6 col-xl-3">
+
+                    <!-- Simple card -->
+                    <div class="card">
+                         
+                        <div class="card-body">
+                            <h4 class="card-title">	Список проводимых в данный момент опросов студентов</h4>
+                            <p class="card-text">Уважаемые студенты!
+                                С целью изучения качества преподавания учебных дисциплин и профессионального мастерства преподавателей просим Вас ответить на вопросы предлагаемой анкеты.
+                                Оценка работы преподавателя проводится по 5-балльной шкале:</p>
+                           
+                                <h6 style="color: rgb(225, 150, 51);">1 – Неудовлетворительно;</h6>
+                                <h6>2 - Удовлетворительно;</h6>
+                               <h6> 3 – Хорошо;</h6>
+                               <h6> 4 - Очень хорошо;</h6>
+                                <h6>5 – Отлично;</h6>
+                        </div>
+                    </div>
+
+                </div><!-- end col -->
+ 
+
+               
+ 
+            </div>
+
+
+        </div> <!-- container-fluid -->
+    </div>
+    <!-- End Page-content -->
+
+    @@include("partials/footer.html")
+        </div><!-- end main content-->
+
+        
+
+
+</div>
+<!-- END layout-wrapper -->
+
+@@include("partials/right-sidebar.html")
+
+@@include("partials/vendor-scripts.html")
+
+<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

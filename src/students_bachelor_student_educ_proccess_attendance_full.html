@@ -1,0 +1,168 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Utility", "title": "Starter page"})
+                        <section class="content-main">
+                            <div class="content-header">
+                                <h2 class="content-title">Transactions</h2>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <header class="border-bottom mb-4 pb-4">
+                                                <div class="row">
+                    
+                                                    <div class="col-lg-5 col-6 me-auto">
+                                                        <input type="text" placeholder="Search..." class="form-control" />
+                                                    </div>
+                                                    <div class="col-lg-2 col-6">
+                                                        <select class="form-select">
+                                                            <option>Method</option>
+                                                            <option>Master card</option>
+                                                            <option>Visa card</option>
+                                                            <option>Paypal</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </header>
+                                            <!-- card-header end// -->
+                                            <div class="table-responsive">
+                    
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>РК1</th>
+                                                        <th>30.09</th>
+                    
+                                                        <th>сумма</th>
+                    
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td><b>100</b></td>
+                                                        <td>10</td>
+                                                        <td>10</td>
+                    
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b><h6>РК2 (100): О</h6></b></td>
+                                                        <td><b><h6>РК2 (100): О</h6></b></td>
+                                                    </tr>
+                                                    <div >Дискретная математика и Математическая логика ([РК1 + РК2 + Экз] (100)) 04.09.2023 - 16.12.2023</div>
+                    
+                    
+                                                    </tbody>
+                                                </table>
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>РК1</th>
+                                                        <th>30.09</th>
+                    
+                                                        <th>сумма</th>
+                    
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td><b>100</b></td>
+                                                        <td>10</td>
+                                                        <td>10</td>
+                    
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b><h6>РК2 (100): О</h6></b></td>
+                                                        <td><b><h6>РК2 (100): О</h6></b></td>
+                                                    </tr>
+                                                    <div >Test</div>
+                    
+                    
+                                                    </tbody>
+                                                </table>
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>РК1</th>
+                                                        <th>30.09</th>
+                    
+                                                        <th>сумма</th>
+                    
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td><b>100</b></td>
+                                                        <td>10</td>
+                                                        <td>10</td>
+                    
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b><h6>РК2 (100): О</h6></b></td>
+                                                        <td><b><h6>РК2 (100): О</h6></b></td>
+                                                    </tr>
+                                                    <div >Test</div>
+                    
+                    
+                                                    </tbody>
+                                                </table>
+                    
+                                            </div>
+                                            <!-- table-responsive.// -->
+                                        </div>
+                                        <!-- col end// -->
+                    
+                                        <!-- col end// -->
+                                    </div>
+                                    <!-- row end// -->
+                                </div>
+                                <!-- card-body // -->
+                            </div>
+                            <!-- card end// -->
+                    
+                        </section>
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

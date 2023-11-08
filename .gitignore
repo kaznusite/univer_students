@@ -1,0 +1,12 @@
+# ignore ALL .log files
+*.log
+/node_modules/
+/reference/
+# ignore ALL .log files
+*.yarn.lock
+# ignore ALL .log files
+tailwind.config.js
+yarn-error.log
+package-lock.json
+/.vscode
+

@@ -1,0 +1,117 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Utility", "title": "Starter page"})
+
+                        <section class="content-main">
+                            <div class="content-header">
+                                <a href="javascript:history.back()"><i class="material-icons md-arrow_back"></i> Go back </a>
+                            </div>
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h5>Уважаемый</h5>
+                                    <h6><a href="">Абдихадирова Гүлденай Берікқызы</a></h6>на этой странице вы можете увидеть информацию о своем эдвайзере.
+                                    Если вы по какой-либо причине забыли пароль в системе, или вы затрудняетесь с чем-то,
+                                    то обратитесь к Вашему эдвайзеру, который Вам подскажет что и как необходимо сделать.
+                                </div>
+                            </div>
+                            <div class="card mb-4">
+                    
+                                <div class="card-header bg-brand-2" style="height: 150px"></div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-xl col-lg flex-grow-0" style="flex-basis: 230px">
+                                            <div class="img-thumbnail shadow w-100 bg-white position-relative text-center" style="height: 190px; width: 200px; margin-top: -120px">
+                                                <img src="../../../assets/images/users/image 2.png" class="center-xy img-fluid" alt="Logo Brand" />
+                                            </div>
+                                        </div>
+                                        <!--  col.// -->
+                                        <div class="col-xl col-lg">
+                                            <h3>Абдижаппар Әсемай Абдигалиқызы</h3>
+                                            <p>Уважаемый <a href="">Абдижаппар Әсемай Абдигалиқызы</a> на этой странице вы можете увидеть информацию о своем эдвайзере.
+                                                Если вы по какой-либо причине забыли пароль в системе, или вы затрудняетесь с чем-то,
+                                                то обратитесь к Вашему эдвайзеру, который Вам подскажет что и как необходимо сделать.</p>
+                    
+                                        </div>
+                    
+                                        <!--  col.// -->
+                    
+                                        <!--  col.// -->
+                                    </div>
+                                    <!-- card-body.// -->
+                                    <hr class="my-4" />
+                                    <div class="row g-4">
+                    
+                                        <!--  col.// -->
+                                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                                            <h6>Ф.И.О.</h6>
+                                            <p>
+                                                Тапеева Самал Конысбековна <br />
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                                            <h6>Рабочий телефон</h6>
+                                            <p>
+                                               +7 777 777 77 77 <br />
+                                            </p>
+                                        </div>
+                                        <!--  col.// -->
+                    
+                                        <!--  col.// -->
+                    
+                                        <!--  col.// -->
+                                    </div>
+                                    <!--  row.// -->
+                                </div>
+                                <!--  card-body.// -->
+                            </div>
+                            <!--  card.// -->
+                    
+                    
+                            <!--  card.// -->
+                            
+                        </section>
+
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,119 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Utility", "title": "Starter page"})
+
+                        <section class="content-main">
+                            <div class="content-header">
+                                <div>
+                                    <h2 class="content-title card-title">Список услуг</h2>
+                                    <p>Список услуг</p>
+                                </div>
+                            </div>
+                    
+                    
+                    
+                    
+                    
+                            <div class="card">
+                    
+                                <div class="card-body">
+                                    <div class="row mb-50 mt-20 order-info-wrap">
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <tr class="table-success">
+                                                <th  scope="col">#</th>
+                                                <th scope="col">Услуга</th>
+                                                <th scope="col">Услуга</th>
+                    
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Вакантные образовательные гранты</td>
+                                                <td>
+                                                    <a href="../Vacant-educational-grants.html" class="btn btn-primary">Подать заявку</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Вакантные образовательные гранты</td>
+                                                <td>
+                                                    <a href="../Vacant-educational-grants.html" class="btn btn-primary">Подать заявку</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Вакантные образовательные гранты</td>
+                                                <td>
+                                                    <a href="../Vacant-educational-grants.html" class="btn btn-primary">Подать заявку</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Вакантные образовательные гранты</td>
+                                                <td>
+                                                    <a href="../Vacant-educational-grants.html" class="btn btn-primary">Подать заявку</a>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- row // -->
+                    
+                                </div>
+                    
+                                <!-- card-body end// -->
+                            </div>
+                    
+                    
+                            <!-- content-main end// -->
+                    
+                            <!-- card end// -->
+                    
+                            <!-- card end// -->
+                        </section>
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

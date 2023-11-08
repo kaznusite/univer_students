@@ -1,0 +1,125 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Utility", "title": "Starter page"})
+
+                        <section class="content-main">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div style="margin-left:10px">
+                                            <div class="wrapper">
+                                                <ul class="StepProgress">
+                                                    <div class="StepProgress-item is-done">
+                                                        <div class="mb-4">
+                                                            <div class="col-lg-4 col-sm-4 col-8 flex-grow-1 col-name">
+                                                                <a class="itemside" href="#">
+                    
+                                                                    <div class="info">
+                                                                        <h6 >Инициализация заявки</h6>
+                                                                        <span class="badge rounded-pill alert-success">Пользователь: Абайбек Ә. А. (Студент)</span>
+                                                                        <span>Дата: 05.09.2023 12:34</span>
+                                                                        <h6>Результат действия: <span class="badge rounded-pill alert-success">Принято</span> </h6>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                    
+                                                        </div>
+                    
+                                                    <div class="StepProgress-item is-done">
+                                                        <div class="col-lg-4 col-sm-4 col-8 flex-grow-1 col-name">
+                                                            <a class="itemside" href="#">
+                    
+                                                                <div class="info">
+                                                                    <h6 >Утверждение</h6>
+                                                                    <span class="badge rounded-pill alert-success">Пользователь: Абайбек Ә. А. (Студент)</span>
+                                                                    <span>Дата: 05.09.2023 12:34</span>
+                                                                    <h6>Результат действия: <span class="badge rounded-pill alert-success">Принято</span> </h6>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                    
+                                                    </div>
+                                                    <div class="StepProgress-item is-done ">
+                                                        <div class="col-lg-4 col-sm-4 col-8 flex-grow-1 col-name">
+                                                            <a class="itemside" href="#">
+                    
+                                                                <div class="info">
+                                                                    <h6 >Системные действия/проверки</h6>
+                                                                    <span class="badge rounded-pill alert-success">Абдибеков У. С. (Декан) Декан</span>
+                                                                    <span>Дата: 05.09.2023 12:34</span>
+                                                                    <h6>Результат действия: <span class="badge rounded-pill alert-primary">Выполнено</span> </h6>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="StepProgress-item is-done">
+                                                        <div class="col-lg-4 col-sm-4 col-8 flex-grow-1 col-name ">
+                                                            <a class="itemside" href="#">
+                    
+                                                                <div class="info">
+                                                                    <h6 >Уведомление 2</h6>
+                                                                    <span class="badge rounded-pill alert-success">Пользователь: Абайбек Ә. А. (Студент)</span>
+                                                                    <span>Дата: 05.09.2023 12:34</span>
+                                                                    <h6>Результат действия: <span class="badge rounded-pill alert-warning">Уведомление отправлено</span> </h6>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="StepProgress-item current">
+                                                        <strong>Завершено</strong>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                    
+                                </div>
+                            </div>
+                    
+                    
+                        </section>
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

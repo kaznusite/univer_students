@@ -1,0 +1,171 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            @@include("partials/menu.html")
+
+
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Личные данные студента", "title": "Личные данные студента"})
+
+
+                                                <!-- ROW-1 OPEN -->
+                                                <div class="row">
+                                                    <div class="col-xl-4">
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <div class="card-title">Личные данные студента</div>
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="text-center chat-image mb-5">
+                                                                    <div class="avatar avatar-xxl chat-profile mb-3 brround">
+                                                                        <a class="" href="profile.html"><img alt="avatar" src="../assets/images/users/image 2.png" class="brround"></a>
+                                                                    </div>
+                                                                    <div class="main-chat-msg-name">
+                                                                        <a href="profile.html">
+                                                                            <h5 class="mb-1 text-dark fw-semibold">Армия Құндыз Серікқызы</h5>
+                                                                        </a>
+                                                                        <p class="text-muted mt-0 mb-0 pt-0 fs-13">Web Designer</p>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                
+                                                            </div>
+                                                            <div class="card-footer text-end">
+                                                                <a href="javascript:void(0)" class="btn btn-primary">Обновить</a>
+                                                                <a href="javascript:void(0)" class="btn btn-danger">Отмена</a>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="col-xl-8">
+                                                        <div class="card panel-theme">
+                                                            <div class="card-header">
+                                                                <div class="float-start">
+                                                                    <h3 class="card-title">Информация Данное фото будет
+                                                                         использовано при распечатке Ваших документов.
+                                                                          Поэтому просим серьезно отнестись к требованиям.
+                                                                           Если фото не будет удовлетворять требованиям,
+                                                                            то документы невозможно будет распечатать.
+                                                                    </h3>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                            </div>
+                                                            <div class="card-body no-padding">
+                                                                <ul class="list-group no-margin">
+                                                                    <li class="list-group-item d-flex ps-3">
+                                                                        <div class="social social-profile-buttons me-2">
+                                                                            <a class="social-icon text-primary" href="javascript:void(0)"><i class="fe fe-mail"></i></a>
+                                                                        </div>
+                                                                        <h6>
+                                                                            Личная фотография изготовляется в черно-белом или цветном изображении;
+                                                                             Размеры фотографии: 30 мм x 40 мм; На личных фотографиях лицо должно 
+                                                                             быть сфотографировано строго в анфас, с мимикой (выражением),
+                                                                              не искажающем его черты, без головного убора, фотографирование 
+                                                                              желательно производить в однотонном костюме (платье); 
+                                                                              Не допускается фотографирование лиц в очках с 
+                                                                              тонированными стеклами; В целом изображение на личной фотографии 
+                                                                              должно быть резким, четким, среднего контраста,
+                                                                               с мягким светотеневым рисунком; Задний фон светлее изображения лица
+                                                                               , ровный, без полос, пятен и изображения посторонних предметов;
+                                                                                На фотографиях не допускаются изломы, царапины, повреждения 
+                                                                                эмульсионного слоя, затеки, пятна, различного рода вуали,
+                                                                                 следы позитивной ретуши, в том числе химической,
+                                                                                  и другие дефекты; Окончательный размер (после вырезки)
+                                                                                   с помощью специальной программы 
+                                                                                   (30 мм x 40 мм) При нарушение данных требований
+                                                                                    эдвайзер вправе удалить загруженную фотографию
+                                                                        </h6>
+                                                                    </li>
+                                                                    <li class="list-group-item d-flex ps-3">
+                                                                        <div class="social social-profile-buttons me-2">
+                                                                            <h6>
+                                                                                ТРЕБОВАНИЯ К ФОТОГРАФИЯМ СТУДЕНТОВ Данное фото будет
+                                                                                использовано для оформления документов. Поэтому просим
+                                                                                соблюдать все нижеперечисленные требования
+                                                                            </h6>
+                                                                        </div>
+                                                                        
+                                                                    </li>
+                                                                    
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <h3 class="card-title">Редактировать профиль</h3>
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6 col-md-12">
+                                                                        <div class="form-group">
+                                                                            <label for="exampleInputname">Имя</label>
+                                                                            <input type="text" class="form-control" id="exampleInputname" placeholder="Құндыз">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6 col-md-12">
+                                                                        <div class="form-group">
+                                                                            <label for="exampleInputname1">Фамилия</label>
+                                                                            <input type="text" class="form-control" id="exampleInputname1" placeholder="Серікқызы">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="exampleInputEmail1">Email address</label>
+                                                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="armiyakundyz@mail.ru">
+                                                                </div>
+                                                                
+                                                                
+                                     
+                                                            </div>
+                                                             
+                                                        </div>
+
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+
+
+                                                    
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

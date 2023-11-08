@@ -1,0 +1,242 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Utility", "title": "Starter page"})
+
+                        <section class="content-main">
+                            <div class="content-header">
+                                <h2 class="content-title">Задолженности</h2>
+                                <div>
+                                    <a href="#" class="btn btn-primary"><i class="material-icons md-plus"></i> Create new</a>
+                                </div>
+                            </div>
+                            <div class="card mb-4">
+                                <header class="card-header">
+                                    <div class="row gx-3">
+                                        <div class="col-lg-4 col-md-6 me-auto">
+                                            <input type="text" placeholder="Search..." class="form-control" />
+                                        </div>
+                                        <div class="col-lg-2 col-6 col-md-3">
+                                            <select class="form-select">
+                                                <option>Show 20</option>
+                                                <option>Show 30</option>
+                                                <option>Show 40</option>
+                                                <option>Show all</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-2 col-6 col-md-3">
+                                            <select class="form-select">
+                                                <option>Status: all</option>
+                                                <option>Active only</option>
+                                                <option>Disabled</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </header>
+                                <!-- card-header end// -->
+                                <div class="card-body">
+                                    <div class="row ">
+                                        <div class="col">
+                                            <div class="card card-user">
+                                                <div class="card-header">
+                                                    <img class="img-md img-avatar" src="../../../assets/imgs/items/1.jpg" alt="User pic" />
+                                                </div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title mt-50">Информация</h5>
+                                                    <div class="card-text  ">
+                                                        <p class="m-0"></p>
+                                                        <p><h6>ВНИМАНИЕ!</h6>
+                                                            ПАМЯТКА ПО ПОВТОРНОМУ ИЗУЧЕНИЮ ДИСЦИПЛИН
+                                                            Обучающийся, не подавший заявку на повторное обучение через систему ''Univer" к обучению не допускается.
+                                                            Просим Вас строго соблюдать пошаговую реализацию повторного изучения дисциплин в системе ''Univer":
+                                                            1. Студент должен подать заявку на повторное обучение только с помощью специальной ссылки в системе ''Univer" (далее Система);
+                                                            2. Заявку рассматривают в деканате, после чего методист одобряет/отклоняет заявку в Системе;
+                                                            3. После одобрения методист оформляет договор на повторное обучение. Методист проставляет отметку «оформлен договор» в Системе;
+                                                            4. Студент оплачивает дополнительное обучение, но только после того, как статус заявки станет «оформлен договор» в Системе. Студент при оплате в банк должен сообщить номер договора сотруднику банка;
+                                                            5. В случае, если студент передумал или ошибочно подал заявку на повторное обучение дисциплины и еще не оплатил, необходимо выполнить следующие действия:
+                                                            a. Студент удаляет поданную ранее заявку, если договор еще не оформлен.
+                                                            b. В случае, если уже оформлен договор, необходимо обратиться к методисту деканата. Методист аннулирует оформленный договор в Системе;
+                                                            c. После аннулирования договора Студент подает заявку на другую дисциплину. Далее перейти к пункту 2 (данной памятки).
+                                                            6. В случае, если студент уже оплатил неверно поданную заявку и хочет поменять дисциплину, необходимо выполнить следующие действия:
+                                                            a. Студент подает заявку по нужной дисциплине, методист оформляет договор.
+                                                            b. Студент должен обратиться в бухгалтерию с письменным заявлением, для того чтобы ранее оплаченную сумму перечислили на оплату новой заявки.
+                                                            c. Бухгалтерия аннулирует ранее поданную заявку от Студента;
+                                                            Важно!
+                                                            Студент не имеет права посещать занятия по дисциплине, по которой он не подавал заявки.
+                                                            Преподаватель не должен запускать на занятие тех студентов, которых нет в журнале посещений в Системе.
+                                                        </p>
+                                                        <a href="#" class="btn btn-sm btn-brand rounded font-sm mt-15">View details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- col.// -->
+                    
+                                        <!-- col.// -->
+                                    </div>
+                                    <!-- row.// -->
+                                </div>
+                    
+                                <!-- card-header end// -->
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                    
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" />
+                                                    </div>
+                                                </th>
+                                                <th>Заявка</th>
+                                                <th>Дисциплина</th>
+                                                <th>Кред.</th>
+                                                <th>Сумма</th>
+                                                <th>GPA</th>
+                                                <th>Букв</th>
+                                                <th>трад</th>
+                                                <th>курс (сем.) </th>
+                                                <th>Стоимость</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                    
+                                            <tr>
+                                                <td>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" />
+                                                    </div>
+                                                </td>
+                                                <td>23</td>
+                                                <td><b>Organic Quinoa, Brown, & Red Rice</b></td>
+                                                <td>Devon Lane</td>
+                                                <td>
+                                                    <ul class="rating-stars">
+                                                        <li style="width: 60%" class="stars-active">
+                                                            <img src="../../../assets/imgs/icons/stars-active.svg" alt="stars" />
+                                                        </li>
+                                                        <li>
+                                                            <img src="../../../assets/imgs/icons/starts-disable.svg" alt="stars" />
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td>12313123</td>
+                                                <td>1232132</td>
+                                                <td>11231232</td>
+                                                <td>11232</td>
+                                                <td>123</td>
+                    
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" />
+                                                    </div>
+                                                </td>
+                                                <td>23</td>
+                                                <td><b>Organic Quinoa, Brown, & Red Rice</b></td>
+                                                <td>Devon Lane</td>
+                                                <td>
+                                                    <ul class="rating-stars">
+                                                        <li style="width: 60%" class="stars-active">
+                                                            <img src="../../../assets/imgs/icons/stars-active.svg" alt="stars" />
+                                                        </li>
+                                                        <li>
+                                                            <img src="../../../assets/imgs/icons/starts-disable.svg" alt="stars" />
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td>12313123</td>
+                                                <td>1232132</td>
+                                                <td>11231232</td>
+                                                <td>11232</td>
+                                                <td>123</td>
+                    
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" />
+                                                    </div>
+                                                </td>
+                                                <td>23</td>
+                                                <td><b>Organic Quinoa, Brown, & Red Rice</b></td>
+                                                <td>Devon Lane</td>
+                                                <td>
+                                                    <ul class="rating-stars">
+                                                        <li style="width: 60%" class="stars-active">
+                                                            <img src="../../../assets/imgs/icons/stars-active.svg" alt="stars" />
+                                                        </li>
+                                                        <li>
+                                                            <img src="../../../assets/imgs/icons/starts-disable.svg" alt="stars" />
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td>12313123</td>
+                                                <td>1232132</td>
+                                                <td>11231232</td>
+                                                <td>11232</td>
+                                                <td>123</td>
+                    
+                                            </tr>
+                    
+                    
+                                            </tbody>
+                                        </table>
+                    
+                                    </div>
+                                    <!-- table-responsive//end -->
+                                </div>
+                                <!-- card-body end// -->
+                    
+                    
+                                <!-- card-body end// -->
+                    
+                            </div>
+                            <!-- card end// -->
+                    
+                        </section>
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

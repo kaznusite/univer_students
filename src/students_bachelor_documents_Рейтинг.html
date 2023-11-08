@@ -1,0 +1,124 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Учебный план", "title": "Учебный план"})
+
+                        <div class="container-xxl flex-grow-1 container-p-y">
+                            <div class="row gy-4 mb-4">
+                                <div class="col-lg-6">
+                                  <div class="card bg-label-primary h-100">
+                                    <div class="card-body d-flex justify-content-between flex-wrap-reverse">
+                                      <div class="mb-0 w-100 app-academy-sm-60 d-flex flex-column justify-content-between text-center text-sm-start">
+                                        <div class="card-title">
+                                          <h4 class="text-primary mb-2">Примечание</h4>
+                                          <p class="text-body w-sm-80 app-academy-xl-100">
+                                            Уважаемый студент! При заполнении рейтинговой анкеты следуйте следующим правилам:
+                                            <li>
+                                                <a href="">Выбор направления деятельности является обязательным.</a>
+                                                
+                                            </li>
+                                            Для детализации списка показателей можете использовать фильтр по группам.
+                                          </p>
+                                        </div>
+                                        
+                                        <div class="mb-0"><button class="btn btn-primary waves-effect waves-light">Сохранить</button></div>
+                                      </div>
+                                      <div class="w-100 app-academy-sm-40 d-flex justify-content-center justify-content-sm-end h-px-150 mb-3 mb-sm-0">
+                                        <img class="img-fluid scaleX-n1-rtl" src="assets/images/backgrounds/phone.svg" alt="boy illustration">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                              </div>
+
+                          <div class="alert alert-success d-flex align-items-center" role="alert">
+                            <span class="alert-icon text-warning  me-2">
+                              <i class="ti ti-book ti-xs"></i>
+                            </span>                            
+                            Развитие учебной активности обучающихся	
+                          </div>
+                          <div class="card">
+                            <h5 class="card-header">1.1-КАЧЕСТВЕНЫЙ ПОКАЗАТЕЛЬ УСПЕВАЕМОСТИ</h5>
+                            <div class="table-responsive text-nowrap">
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>вариант</th>
+                                    <th>Балл</th>
+                                    <th>Тип</th>
+                                    <th>Значение	.</th>
+                                    <th>Описание.</th>
+
+                                  </tr>
+                                </thead>
+                                <tbody class="table-border-bottom-0">
+                                  <tr class="table-default">
+                                    <td>
+                                      <i class="ti ti-books ti-lg text-warning me-3"></i> <strong>успеваемость</strong>
+                                    </td>
+                                    <td>100 баллов</td>
+                                   
+                                    <td><span class="badge bg-label-primary me-1">Количественный</span></td>
+                                    <td> 48,00 баллов</td>
+                                    <td>123</td>
+                                    
+                                  </tr>
+
+                                </tbody>
+                              </table>
+                              
+                            </div>
+                            
+                          </div>
+                          
+                         
+                          
+               
+                          
+             
+                          
+
+                    </div> <!-- container-fluid -->
+                    
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

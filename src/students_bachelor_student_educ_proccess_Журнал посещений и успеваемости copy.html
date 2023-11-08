@@ -1,0 +1,497 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Calendar"})
+
+        <!-- Plugin css -->
+        <link rel="stylesheet" href="assets/libs/@fullcalendar/core/main.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/libs/@fullcalendar/daygrid/main.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/libs/@fullcalendar/bootstrap/main.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/libs/@fullcalendar/timegrid/main.min.css" type="text/css">
+    
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+        
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "УМКД", "title": "Расписание"})
+
+
+                        <div class="row">
+
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                  <ul class="nav nav-pills flex-column flex-md-row mb-4">
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="pages-account-settings-account.html"><i class="ti-xs ti ti-file-description me-1"></i>Перейти к 2022-2023 году Весенний семестр</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="pages-account-settings-security.html"><i class="ti-xs ti ti-file-description me-1"></i> Перейти к 2022-2023 году Весенний семестр</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link active" href="javascript:void(0);"><i class="ti-xs ti ti-file-description me-1"></i> Перейти к 2022-2023 году Весенний семестр</a>
+                                    </li>
+                                
+                                  
+                                  </ul>
+
+                                </div>
+
+
+                              </div>
+
+                            <div class="col-md-6 mb-4">
+                                
+                                <div class="card h-100">
+                                  <div class="card-header d-flex justify-content-between">
+                                    <h5 class="card-title m-0 me-2">	Основы алгебры ([РК1 + РК2 + Экз] (100)) 04.09.2023 - 16.12.2023</h5>
+                                    <div class="dropdown">
+                                      <button class="btn p-0" type="button" id="teamMemberList" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="ti ti-dots-vertical ti-sm text-muted"></i>
+                                      </button>
+                                     
+                                    </div>
+                                  </div>
+                                  <div class="table-responsive">
+                                    <table class="table table-borderless border-top">
+                                      <thead class="border-bottom">
+                                        <tr>
+                                          <th>РК1 (100)</th>
+                                          <th>26.06.2023</th>
+                                          <th>26.06.2024</th>
+                                          <th>Сумма</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div class="d-flex justify-content-start align-items-center">
+                                              <div class="me-3">
+                                                <img src="assets/images/backgrounds/phone.svg" alt="Visa" height="30">
+                                              </div>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">39</p>
+                                                <small class="text-muted">17 марта 2022 г.</small>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>
+                                            <div class="d-flex flex-column">
+                                              <p class="mb-0 fw-semibold">96</p>
+                                              <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                            </div>
+                                          </td>
+                                          <td>
+                                            <div class="d-flex flex-column">
+                                              <p class="mb-0 fw-semibold">96</p>
+                                              <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                            </div>
+                                          </td>
+                                          <td><span class="badge bg-label-success">878</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                              <div class="d-flex justify-content-start align-items-center">
+                                                <div class="me-3">
+                                                  <img src="assets/images/backgrounds/phone.svg" alt="Visa" height="30">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                  <p class="mb-0 fw-semibold">39</p>
+                                                  <small class="text-muted">17 марта 2022 г.</small>
+                                                </div>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td><span class="badge bg-label-success">878</span></td>
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                              <div class="d-flex justify-content-start align-items-center">
+                                                <div class="me-3">
+                                                  <img src="assets/images/backgrounds/phone.svg" alt="Visa" height="30">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                  <p class="mb-0 fw-semibold">39</p>
+                                                  <small class="text-muted">17 марта 2022 г.</small>
+                                                </div>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td><span class="badge bg-label-success">878</span></td>
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                              <div class="d-flex justify-content-start align-items-center">
+                                                <div class="me-3">
+                                                  <img src="assets/images/backgrounds/phone.svg" alt="Visa" height="30">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                  <p class="mb-0 fw-semibold">39</p>
+                                                  <small class="text-muted">17 марта 2022 г.</small>
+                                                </div>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td><span class="badge bg-label-success">878</span></td>
+                                          </tr>
+      
+
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                                                          
+                            <div class="col-md-6 mb-4">
+                                <div class="card h-100">
+                                  <div class="card-header d-flex justify-content-between">
+                                    <h5 class="card-title m-0 me-2">Дискретная математика и Математическая логика ([РК1 + РК2 + Экз] (100)) 04.09.2023 - 16.12.2023</h5>
+                                    <div class="dropdown">
+                                      <button class="btn p-0" type="button" id="teamMemberList" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="ti ti-dots-vertical ti-sm text-muted"></i>
+                                      </button>
+                                     
+                                    </div>
+                                  </div>
+                                  <div class="table-responsive">
+                                    <table class="table table-borderless border-top">
+                                      <thead class="border-bottom">
+                                        <tr>
+                                          <th>РК1 (100)</th>
+                                          <th>26.06.2023</th>
+                                          <th>26.06.2024</th>
+                                          <th>Сумма</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div class="d-flex justify-content-start align-items-center">
+                                              <div class="me-3">
+                                                <img src="assets/images/backgrounds/phone.svg" alt="Visa" height="30">
+                                              </div>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">39</p>
+                                                <small class="text-muted">17 марта 2022 г.</small>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>
+                                            <div class="d-flex flex-column">
+                                              <p class="mb-0 fw-semibold">96</p>
+                                              <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                            </div>
+                                          </td>
+                                          <td>
+                                            <div class="d-flex flex-column">
+                                              <p class="mb-0 fw-semibold">96</p>
+                                              <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                            </div>
+                                          </td>
+                                          <td><span class="badge bg-label-success">878</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                              <div class="d-flex justify-content-start align-items-center">
+                                                <div class="me-3">
+                                                  <img src="assets/images/backgrounds/phone.svg" alt="Visa" height="30">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                  <p class="mb-0 fw-semibold">39</p>
+                                                  <small class="text-muted">17 марта 2022 г.</small>
+                                                </div>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td><span class="badge bg-label-success">878</span></td>
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                              <div class="d-flex justify-content-start align-items-center">
+                                                <div class="me-3">
+                                                  <img src="assets/images/backgrounds/phone.svg" alt="Visa" height="30">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                  <p class="mb-0 fw-semibold">39</p>
+                                                  <small class="text-muted">17 марта 2022 г.</small>
+                                                </div>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td><span class="badge bg-label-success">878</span></td>
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                              <div class="d-flex justify-content-start align-items-center">
+                                                <div class="me-3">
+                                                  <img src="assets/images/backgrounds/phone.svg" alt="Visa" height="30">
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                  <p class="mb-0 fw-semibold">39</p>
+                                                  <small class="text-muted">17 марта 2022 г.</small>
+                                                </div>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-0 fw-semibold">96</p>
+                                                <small class="text-muted text-nowrap">17 марта 2022 г.</small>
+                                              </div>
+                                            </td>
+                                            <td><span class="badge bg-label-success">878</span></td>
+                                          </tr>
+      
+
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">	Журнал посещений и успеваемости</h4>
+                                    <p class="card-text">Журнал посещений и успеваемости</p>
+                                    <div class="button-items">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light">Перейти к 2023-2024 году Весенний семестр</button>
+                                        <button type="button" class="btn btn-light waves-effect">Перейти к 2023-2024 году Весенний семестр</button>
+        
+                                        
+                                        
+                                    </div>
+                                    <hr>
+                                        
+                                    <div class="table-responsive">
+                                        
+                                        <table class="table table-bordered">
+                                            <thead class="thead-dark">
+                                                <tr>
+                                                    <th>Название дисциплины</th>
+                                                    <th>Преподаватель</th>
+                                                    <th>Тип</th>
+                                                    <th>Аудитория факультета</th>
+                                                    <th>Тип группы</th>
+                                                     
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- Add your data rows here -->
+                                                <tr>
+                                                    <td>История Казахстана ([РК1+РК2+ ГЭК] (100)) 04.09.2023 - 16.12.2023</td>
+                                                    <td>семинар - Кошымова А. О. (Казахский)</td>
+                                                    <td>
+                                                        <table class="table table-bordered">
+                                                            <thead class="thead-dark">
+                                                                <tr>
+                                                                    <th style="width:30px;" rowspan="2" title="РК1 (100)">РК1 (100)</th>
+                                                                    <th style="width:30px;">18.09</th>
+                                                                    <th style="width:30px;">25.09</th>
+                                                                    <th style="width:30px;">16.10</th>
+                                                                    <th style="width:30px;">09.10</th>
+                                                                    <th>&nbsp;</th>
+                                                                    <th style="width:45px;text-align:center">Сумма</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="text-align:center" title="">7</td>
+                                                                    <td style="text-align:center" title="">0</td>
+                                                                    <td style="text-align:center" title="">20</td>
+                                                                    <td style="text-align:center" title="">20</td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td style="text-align:center;font-weight:bold;">47</td>
+                                                                    
+                                                                </tr>
+                                                                
+                                                            </thead>
+                                                        </table>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>История Казахстана ([РК1+РК2+ ГЭК] (100)) 04.09.2023 - 16.12.2023</td>
+                                                    <td>семинар - Кошымова А. О. (Казахский)</td>
+                                                    <td>
+                                                        <table class="table table-bordered">
+                                                            <thead class="thead-dark">
+                                                                <tr>
+                                                                    <th style="width:30px;" rowspan="2" title="РК1 (100)">РК1 (100)</th>
+                                                                    <th style="width:30px;">18.09</th>
+                                                                    <th style="width:30px;">25.09</th>
+                                                                    <th style="width:30px;">16.10</th>
+                                                                    <th style="width:30px;">09.10</th>
+                                                                    <th>&nbsp;</th>
+                                                                    <th style="width:45px;text-align:center">Сумма</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="text-align:center" title="">7</td>
+                                                                    <td style="text-align:center" title="">0</td>
+                                                                    <td style="text-align:center" title="">20</td>
+                                                                    <td style="text-align:center" title="">20</td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td style="text-align:center;font-weight:bold;">47</td>
+                                                                    
+                                                                </tr>
+                                                                
+                                                            </thead>
+                                                        </table>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>История Казахстана ([РК1+РК2+ ГЭК] (100)) 04.09.2023 - 16.12.2023</td>
+                                                    <td>семинар - Кошымова А. О. (Казахский)</td>
+                                                    <td>
+                                                        <table class="table table-bordered">
+                                                            <thead class="thead-dark">
+                                                                <tr>
+                                                                    <th style="width:30px;" rowspan="2" title="РК1 (100)">РК1 (100)</th>
+                                                                    <th style="width:30px;">18.09</th>
+                                                                    <th style="width:30px;">25.09</th>
+                                                                    <th style="width:30px;">16.10</th>
+                                                                    <th style="width:30px;">09.10</th>
+                                                                    <th>&nbsp;</th>
+                                                                    <th style="width:45px;text-align:center">Сумма</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="text-align:center" title="">7</td>
+                                                                    <td style="text-align:center" title="">0</td>
+                                                                    <td style="text-align:center" title="">20</td>
+                                                                    <td style="text-align:center" title="">20</td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td style="text-align:center;font-weight:bold;">47</td>
+                                                                    
+                                                                </tr>
+                                                                
+                                                            </thead>
+                                                        </table>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td></td>
+                                                </tr>
+                                                <!-- Add the remaining data rows here -->
+                                            </tbody>
+                                        </table>
+
+
+                                       
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <!-- plugin js -->
+        <script src="assets/libs/moment/min/moment.min.js"></script>
+        <script src="assets/libs/jquery-ui-dist/jquery-ui.min.js"></script>
+        <script src="assets/libs/@fullcalendar/core/main.min.js"></script>
+        <script src="assets/libs/@fullcalendar/bootstrap/main.min.js"></script>
+        <script src="assets/libs/@fullcalendar/daygrid/main.min.js"></script>
+        <script src="assets/libs/@fullcalendar/timegrid/main.min.js"></script>
+        <script src="assets/libs/@fullcalendar/interaction/main.min.js"></script>
+
+        <!-- Calendar init -->
+        <script src="assets/js/pages/calendar.init.js"></script>
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

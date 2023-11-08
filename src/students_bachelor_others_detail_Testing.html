@@ -1,0 +1,74 @@
+@@include("partials/main.html")
+
+    <head>
+        
+        @@include("partials/title-meta.html", {"title": "Starter page"})
+
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            @@include("partials/menu.html")
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        @@include("partials/page-title.html", {"pagetitle": "Последние результаты", "title": "Последние результаты"})
+  
+                        <div class="row">
+                            <div class="col-md-6 col-xl-3">
+        
+                                <div class="card">
+                                     
+                                    <div class="card-body">
+                                        <h4 class="card-title">Последние результаты</h4>
+                                        <h6>Номер теста:	25523</h6>
+                                        <h6>Преподаватель:	Нұран Д. Н.</h6>
+                                        <h6>Экзаменатор:	</h6>
+                                        <h6>Время начала:	21.10.2023 11:00:00</h6>
+                                        <h6>Время завершения:	21.10.2023 11:50:00</h6>
+                                        <h6>Результат последней попытки :	13</h6>
+                                         
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">21.10.2023 11:06 - 21.10.2023 11:46</li>
+                                        <li class="list-group-item">
+                                            Тест завершен. Результат тестирования: 13.</li>
+                                    </ul>
+                                     
+                                </div>
+        
+                            </div><!-- end col -->
+
+                        </div>
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+                
+                @@include("partials/footer.html")
+                
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        @@include("partials/right-sidebar.html")
+
+        @@include("partials/vendor-scripts.html")
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>
